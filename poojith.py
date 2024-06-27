@@ -4,9 +4,7 @@ def isprime(n):
 			return False
 	return True
 
-n = int(input("Enter a number to find whether it is prime or not "))
 
-if isprime(n):
-	print("YES")
-else:
-	print("NO")
+for i in range(1,101):
+	if isprime(i):
+		print(i)
